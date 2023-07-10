@@ -1,0 +1,11 @@
+<div class="container">
+    <div class="input-container">
+      <h2>Base64 Encode</h2>
+      <textarea [(ngModel)]="inputText" (ngModelChange)="encode()" placeholder="Inserta el texto a codificar"></textarea>
+    </div>
+    <div class="output-container">
+      <h3>Encoded Text:</h3>
+      <p>{{ encodedText }}</p>
+    </div>
+  </div>
+  

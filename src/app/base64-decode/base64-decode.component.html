@@ -1,0 +1,11 @@
+<div class="container">
+    <div class="input-container">
+      <h2>Base64 Decode</h2>
+      <textarea [(ngModel)]="inputText" (ngModelChange)="decode()" placeholder="Inserta el texto a decodificar"></textarea>
+    </div>
+    <div class="output-container">
+      <h3>Decoded Text:</h3>
+      <p>{{ decodedText }}</p>
+    </div>
+  </div>
+  
